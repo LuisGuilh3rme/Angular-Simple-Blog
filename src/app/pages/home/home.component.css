@@ -16,3 +16,16 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .home {
+    .home-content {
+      flex-direction: column;
+
+      .home-small-cards {
+        margin-top: 2rem;
+        width: 40rem;
+      }
+    }
+  }
+}

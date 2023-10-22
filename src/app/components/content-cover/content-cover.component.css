@@ -15,5 +15,29 @@
   .content-cover-description {
     width: 50vw;
     margin-left: 2rem;
+
+    > p {
+      text-align: justify;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-cover {
+    flex-direction: column;
+
+    .content-cover-img {
+      width: 40rem;
+
+      > img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .content-cover-description {
+      margin: 1rem 0;
+      width: 30rem;
+    }
   }
 }

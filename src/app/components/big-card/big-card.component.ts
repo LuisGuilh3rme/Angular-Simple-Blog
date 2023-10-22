@@ -15,5 +15,12 @@ export class BigCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    this.description = this.description.length > 300
+    ? this.description.substring(0, 300) + '...'
+    : this.description;
+  }
+
+  ngOnChange(): void {
+
   }
 }
