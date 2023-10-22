@@ -1,5 +1,18 @@
 .home {
   .home-content {
+    display: flex;
     margin: 2rem;
+
+    .home-small-cards {
+      margin-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      > hr {
+        margin-bottom: 1rem;
+        border: 1px solid var(--decoration-color);
+      }
+    }
   }
 }
