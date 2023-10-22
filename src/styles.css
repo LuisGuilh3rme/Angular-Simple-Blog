@@ -2,7 +2,6 @@
   --background-color: #121212;
   --font-color: #aaaaaa;
   --decoration-color: #383838;
-
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -13,7 +12,8 @@
   font-family: var(--font-family);
   background-color: var(--background-color);
   color: var(--font-color);
-  a {
+
+  > a {
     text-decoration: none;
   }
 }

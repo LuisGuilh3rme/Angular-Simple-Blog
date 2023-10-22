@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
 
+  > hr {
+    border: 1px solid var(--decoration-color);
+  }
+
   > h1 {
     font-size: 8rem;
     align-self: center;
