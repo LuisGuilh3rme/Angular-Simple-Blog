@@ -6,15 +6,27 @@
     width: fit-content;
 
     > img {
+      transition: transform .2s;
       max-width: 100%;
       height: auto;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 
   .big-card-content {
-    > span {
-      font-size: small;
-      color: var(--decoration-color);
+    > a {
+
+      :nth-child(1n):hover {
+        color: rgb(201, 201, 201);
+      }
+
+      > span {
+        font-size: small;
+        color: var(--decoration-color);
+      }
     }
   }
 }
