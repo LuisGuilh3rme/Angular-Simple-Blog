@@ -1,16 +1,13 @@
 <div class="big-card">
   <div class="big-card-img">
-    <img src="https://source.unsplash.com/random/600x300" alt="" />
+    <img src="{{ imageSource }}" alt="" />
   </div>
   <div class="big-card-content">
-    <a href="">
-      <span>22/10/2023</span>
-      <h2>Title</h2>
+    <a [routerLink]="['content', id]">
+      <span>{{ date }}</span>
+      <h2>{{ title }}</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nihil
-        quae aliquam sapiente accusamus ut eveniet sequi eligendi, neque aperiam
-        odio porro deserunt ad saepe, reprehenderit voluptates soluta culpa
-        quisquam?
+        {{ description }}
       </p>
     </a>
   </div>

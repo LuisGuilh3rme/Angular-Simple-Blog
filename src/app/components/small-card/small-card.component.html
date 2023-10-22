@@ -1,11 +1,11 @@
 <div class="small-card">
   <div class="small-card-img">
-    <img src="https://source.unsplash.com/random/500x300" alt="" />
+    <img src="{{ imageSource }}" alt="" />
   </div>
   <div class="small-card-content">
-    <a href="#">
-      <span>22/10/2023</span>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <a [routerLink]="['content', id]">
+      <span>{{ date }}</span>
+      <h2>{{ title }}</h2>
     </a>
   </div>
 </div>

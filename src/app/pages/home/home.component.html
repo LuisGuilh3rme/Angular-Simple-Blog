@@ -1,13 +1,32 @@
 <div class="home">
   <app-menu-title></app-menu-title>
   <div class="home-content">
-    <app-big-card></app-big-card>
+    <app-big-card
+      id="{{ contentData[0].id }}"
+      imageSource="{{ contentData[0].imageSource }}"
+      date="{{ contentData[0].date }}"
+      title="{{ contentData[0].title }}"
+      description="{{ contentData[0].description }}"
+    ></app-big-card>
     <div class="home-small-cards">
-      <app-small-card></app-small-card>
+      <app-small-card
+      id="{{ contentData[1].id }}"
+      imageSource="{{ contentData[1].imageSource }}"
+      date="{{ contentData[1].date }}"
+      title="{{ contentData[1].title }}"></app-small-card>
       <hr />
-      <app-small-card></app-small-card>
+      <app-small-card
+      id="{{ contentData[2].id }}"
+      imageSource="{{ contentData[2].imageSource }}"
+      date="{{ contentData[2].date }}"
+      title="{{ contentData[2].title }}"
+      ></app-small-card>
       <hr />
-      <app-small-card></app-small-card>
+      <app-small-card
+      id="{{ contentData[3].id }}"
+      imageSource="{{ contentData[3].imageSource }}"
+      date="{{ contentData[3].date }}"
+      title="{{ contentData[3].title }}"></app-small-card>
     </div>
   </div>
 </div>
