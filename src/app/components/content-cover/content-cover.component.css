@@ -1,0 +1,19 @@
+.content-cover {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+
+  .content-cover-img {
+    width: 50vw;
+
+    > img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .content-cover-description {
+    width: 50vw;
+    margin-left: 2rem;
+  }
+}
