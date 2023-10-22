@@ -1,5 +1,5 @@
 .big-card {
-  width: 30rem;
+  width: 40rem;
 
   .big-card-img {
     width: -moz-fit-content;
@@ -8,6 +8,13 @@
     > img {
       max-width: 100%;
       height: auto;
+    }
+  }
+
+  .big-card-content {
+    > span {
+      font-size: small;
+      color: var(--decoration-color);
     }
   }
 }
