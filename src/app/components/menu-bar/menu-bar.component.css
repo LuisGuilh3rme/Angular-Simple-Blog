@@ -1,0 +1,19 @@
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+
+  .menu-bar-list {
+    display: flex;
+
+    > li {
+      margin: 0 1rem;
+      list-style: none;
+
+      :hover {
+        color: red;
+      }
+    }
+  }
+}
