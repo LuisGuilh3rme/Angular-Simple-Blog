@@ -1,0 +1,13 @@
+.big-card {
+  width: 30rem;
+
+  .big-card-img {
+    width: -moz-fit-content;
+    width: fit-content;
+
+    > img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
